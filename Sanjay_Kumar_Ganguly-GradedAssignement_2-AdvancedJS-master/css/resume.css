@@ -1,0 +1,122 @@
+/* Resume Page */
+
+#resume-page{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin: 5%;
+}
+
+
+#resumeheading{
+    background-color: lightgreen;
+}
+#search {
+    
+    width : 50%;
+}
+
+#resumeHead{
+    display: inline-block;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    width : 900px; 
+}
+
+.resumeBtn{
+    position: relative;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 24px;
+}
+ 
+.resumeInput{
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 48px;
+    width: 500px;
+    font-size: 24px;
+    border-radius: 5px;
+ }
+
+ /* .resumeTemp{
+    display: block;
+    /* width: auto; */
+    /*width: 1200px;
+    margin :20px;
+    border: 2px solid black;
+    height: 800px
+ } */
+
+.basic-work{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width : 900px;
+    /* margin: 2%;
+    display: flex;
+    border: 1px solid black;
+    width: 60% */
+    margin: 2% auto;
+    border-radius: 10px;
+}
+
+#resume-title,
+#resume-image 
+{
+    text-align: center;
+    background-color: lightgreen;
+}
+
+#resume-title > h1 {
+    margin: 20px;
+}
+#resume-title > h3 {
+    margin: 10px;
+}
+#resume-basic{
+    background-color: pink;
+}
+
+.basic-title {
+    font-size: larger;
+    display: block;
+    background-color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.basic-info {
+    text-align: right;
+    margin-right: 15px;
+}
+
+
+.work-title{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 10px;
+}
+
+.work-subtitle{
+    font-weight: bold;
+    margin-left: 20px;
+    text-align: right;
+}
+.work-info > ul {
+    display: block;
+    margin-left: 40px;
+}
+
+.input-field-resume {
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid rgb(168, 168, 168);
+    outline: none;
+    width: 100%;
+    height: 100%
+}
+
